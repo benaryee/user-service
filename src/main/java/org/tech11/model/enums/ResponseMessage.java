@@ -1,4 +1,4 @@
-package org.tech11.enums;
+package org.tech11.model.enums;
 
 public enum ResponseMessage {
 
@@ -25,14 +25,4 @@ public enum ResponseMessage {
         return message;
     }
 
-    public static ResponseMessage getByCode(final int code) {
-        ResponseMessage result = null;
-        for (ResponseMessage roleE : values()) {
-            if (roleE.getCode() == code) {
-                result = roleE;
-                break;
-            }
-        }
-        return result;
-    }
 }

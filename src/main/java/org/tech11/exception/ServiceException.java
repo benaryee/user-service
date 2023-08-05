@@ -1,5 +1,7 @@
 package org.tech11.exception;
 
+import org.tech11.model.enums.ServiceError;
+
 public class ServiceException extends RuntimeException {
 
     private int code;
@@ -8,6 +10,11 @@ public class ServiceException extends RuntimeException {
     public ServiceException(int code, String message){
         this.code = code;
         this.message = message;
+    }
+
+    public ServiceException(ServiceError error){
+        this.code = error.getCode();
+        this.message = error.getMessage();
     }
 
     public int getCode() {

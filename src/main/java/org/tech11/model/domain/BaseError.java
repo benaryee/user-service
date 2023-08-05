@@ -1,4 +1,4 @@
-package org.tech11.domain;
+package org.tech11.model.domain;
 
 import lombok.Data;
 

@@ -12,12 +12,10 @@ public class UserDto implements Serializable {
     private String id;
     private String username;
     private String email;
-    private String phone;
-    private String firstName;
-    private String birthday;
-    private LocalDate dateOfBirth;
-    private String lastName;
-    private String otherNames;
+    private String firstname;
+    private LocalDate birthday;
+    private String lastname;
+    private String othernames;
     private String created;
     private String updated;
 }

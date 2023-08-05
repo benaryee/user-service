@@ -3,6 +3,7 @@
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 A postman documentation has been published [here](https://documenter.getpostman.com/view/6029718/2s9XxwxEM3)
+
 This project is also available on GitHub [here](https://github.com/benaryee/user-service.git).
 
 ## Running the application in dev mode
